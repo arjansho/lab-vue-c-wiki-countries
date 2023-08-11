@@ -20,7 +20,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <p>Country View{{ country.data.country }}{{ route.params }}</p>
+  <p>Country View{{ country }}{{ route.params }}</p>
 </template>
 
 <style scoped>
